@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'screens/counter_screen.dart';
 import 'screens/init_screen.dart';
 
 void main() {
@@ -21,6 +22,7 @@ class UebungMachtMeister extends StatelessWidget {
         initialRoute: '/',
         routes: {
           '/': (context) => InitScreen(),
+          '/counter': (context) => CounterScreen(),
         });
   }
 }
